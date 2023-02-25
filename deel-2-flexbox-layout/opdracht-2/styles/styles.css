@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    flex-basis: 100px;
+    flex-basis: 150px;
     flex-grow: 0;
     flex-shrink: 0;
 }
@@ -40,7 +40,7 @@ article {
 }
 
 footer {
-    flex-basis: 100px;
+    flex-basis: 150px;
     flex-grow: 0;
     flex-shrink: 0;
 }

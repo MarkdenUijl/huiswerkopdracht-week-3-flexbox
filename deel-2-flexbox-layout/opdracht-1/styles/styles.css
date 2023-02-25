@@ -5,10 +5,11 @@ body {
     flex-direction: column;
 }
 
-body > main {
+main {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
+    flex-shrink: 1;
 }
 
 header {
@@ -18,20 +19,20 @@ header {
 }
 
 article {
-    flex-basis: 50vw;
+    flex-basis: 60vw;
     flex-grow: 1;
     flex-shrink: 0;
 }
 
 nav {
-    flex-basis: 20vw;
+    flex-basis: 15vw;
     order: 1;
     flex-grow: 1;
     flex-shrink: 0;
 }
 
 aside {
-    flex-basis: 20vw;
+    flex-basis: 15vw;
     flex-grow: 1;
     flex-shrink: 0;
 }
