@@ -1,1 +1,111 @@
 /*Schrijf hier jouw css*/
+* {    /* CSS RESET! */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    /*VISUAL PROPERTIES */
+    background: #F2F3D9;
+}
+
+
+main {
+    /* FLEXBOX PROPERTIES */
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    /*VISUAL PROPERTIES */
+    margin: 40px;
+}
+
+.navigation-bar {
+    /* FLEXBOX PROPERTIES */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /*VISUAL PROPERTIES */
+    padding: 20px;
+    background: #030027;
+    color: white;
+}
+
+.navigation-bar > ul {
+    /* FLEXBOX PROPERTIES */
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
+    /*VISUAL PROPERTIES */
+    font-weight: 200;
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
+.title-text {
+    /* FLEXBOX PROPERTIES */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+    max-width: 56vw;
+    text-align: center;
+
+    /*VISUAL PROPERTIES */
+    color: #151E3F;
+}
+
+.information-banners {
+    /* FLEXBOX PROPERTIES */
+    display: flex;
+    flex-direction: row;
+    max-width: 56vw;
+    justify-content: space-between;
+    gap: 20px;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+    /* VISUAL PROPERTIES */
+
+}
+
+.information-block {
+    /* FLEXBOX PROPERTIES */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-width: 150px;
+    text-align: center;
+    flex-basis: 280px;
+    height: 350px;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+    /* VISUAL PROPERTIES */
+    background: #C16E70;
+    color: #151E3F;
+    border-radius: 5px;
+    padding: 10px;
+}
