@@ -19,7 +19,6 @@ body {
     flex-basis: 100vh;
     flex-grow: 1;
     flex-shrink: 1;
-    border: 2px red double;
 }
 
 header {
